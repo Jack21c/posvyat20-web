@@ -1,0 +1,105 @@
+.link {
+    text-decoration:none
+}
+.link:hover {
+    text-decoration:underline
+}
+
+.first:hover {
+    background:  #10ffe0;
+}
+.second{
+    border:1px solid #1f4ff0;
+    padding:5px;
+}
+
+.see {
+    visibility: hidden;
+}
+
+#mask {
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:9000;
+    background-color:#000;
+
+    display: none;
+}
+#boxes .window {
+    position:absolute;
+    left:0;
+    top:0px;
+    -top:40px;
+    width:440px;
+    height:200px;
+    display: none;
+    z-index:9999;
+    padding: 20px;
+    overflow: hidden;
+}
+#boxes #dialog {
+    width:375px;
+    height:203px;
+    padding:10px;
+    background-color:#ffffff;
+    border: 3px ridge #1f4ff0;
+
+}
+#boxes1 .window {
+    position:absolute;
+    left:0;
+    top:0px;
+    -top:40px;
+    width:440px;
+    height:200px;
+    display: none;
+    z-index:9999;
+    padding: 20px;
+    overflow: hidden;
+}
+#boxes1 #dialog1 {
+    width:375px;
+    height:203px;
+    padding:10px;
+    background-color:#ffffff;
+    border: 3px ridge #1f4ff0;
+
+}
+.top {
+    position:absolute;
+    left:0;
+    top:0;
+    width:370px;
+    height:30px;
+    background: #000060;
+    padding: 8px 20px 6px 10px;
+    color: #C0C0C0;
+}
+.close {
+    color: #C0C0C0;
+    float:right;
+}
+.close:hover {
+    background-color: #cf0000;
+}
+
+#beback:hover {
+    background-color: #cf0000;
+}
+.in{
+    float: right;
+}
+.out{
+    float: left;
+}
+.content {
+    padding-top: 35px;
+}
+
+.main {
+    z-index: 7000;
+}
+#now {
+    display: inline;
+}

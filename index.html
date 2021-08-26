@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="http://kendo.cdn.telerik.com/2016.2.714/styles/kendo.common.min.css">
+    <link rel="stylesheet" href="http://kendo.cdn.telerik.com/2016.2.714/styles/kendo.default.min.css">
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://kendo.cdn.telerik.com/2016.2.714/js/kendo.all.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Template какой-то</title>
+</head>
+<body>
+<div id="boxes">
+    <div id="dialog" class="window" id="wmore">
+        <div class="top"><a onclick="closeWindow()" href="#" style="color: #C0C0C0" class="link close"/>Закрыть</a></div>
+        <div class="content" id="links"></div>
+    </div>
+</div>
+<div id="boxes1">
+    <div id="dialog1" class="window" id="wchange">
+        <div class="top">
+            <a onclick="closeWindow1()" href="#" class="link close"/>Закрыть</a>
+        </div>
+        <div class="content" id="buttoms">
+            <p>Действующий статус: <b id="now"></b></p>
+            <a onclick="clickOut()" href="#" class="link out"/>Не приехал</a>
+            <a onclick="clickIn()" href="#" class="link in"/>Приехал</a>
+        </div>
+    </div>
+</div>
+
+<!--<div id="mask"></div>-->
+<!-- production-версия, оптимизированная для размера и скорости -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script>-->
+
+<p align="center">
+    <input type="search" name="sp" placeholder="Что ищем?" id="texthere" maxlength="100">
+    <input type="submit" value="Искать" id="but">
+</p>
+<p align="right">
+    <a onclick="comeBack()" href="#" class="first">Вернуться к полной таблице</a>
+</p>
+</form>
+<p class="main">
+    <a onclick="clickWas(0); return false;" href="#" class="first" id=0>№</a>
+    <a onclick="clickWas(1); return false;" href="#" class="first" id=1>Фамилия</a>
+    <a onclick="clickWas(2); return false;" href="#" class="first" id=2>Имя</a>
+    <a onclick="clickWas(3); return false;" href="#" class="first" id=3>Отчество</a>
+    <a onclick="clickWas(4); return false;" href="#" class="first" id=4>Статус прибытия</a>
+    <a onclick="clickWas(5); return false;" href="#" class="first" id=5>Команда</a>
+    <a onclick="clickWas(6); return false;" href="#" class="first" id=6>Комната</a>
+    <a onclick="clickWas(7); return false;" href="#" class="first" id=7>Наличие ключа</a>
+    <a onclick="clickWas(8); return false;" href="#" class="first" id=8>Номер телефона</a>
+    <a onclick="clickWas(9); return false;" href="#" class="first" id=9>Группа</a>
+    <a onclick="clickWas(10); return false;" href="#" class="see" id=10>подробнее</a>
+</p>
+<table id="xi" class="main">
+
+
+</table>
+<script src="work.js">
+</script>
+
+
+<!-- <div id="app">
+    <h1>{{message}}</h1>
+    <p>{{now}}</p>
+</div>-->
+</body>
+</html>
